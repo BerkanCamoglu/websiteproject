@@ -1,0 +1,24 @@
+/* 320px (iPhone) */
+@media screen and (max-width:320px) {
+}
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:480px) {
+	.wrapper { background: #f3f5f8; height: 640px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+	.hero {padding: 20px 0 100px 0;}
+	.hero h1 {font-size: 28px;}
+	.hero h2 {font-size: 11px;}
+
+	.inner {padding-top: 120px;}
+	.wp4 {margin-bottom: 0px;}
+	body.home footer {padding: 20px 0px !important;}
+	.learn-more-btn {margin-top: 20px;}
+	
+	.flex-direction-nav {display: none;}
+	.flexslider {padding-top: 40px;}
+}
+
